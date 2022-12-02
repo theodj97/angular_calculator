@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --black: black;
+  --white: white;
+  --transparent: transparent;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+app-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--black);
+}
